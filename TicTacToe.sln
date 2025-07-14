@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Api", "TicTacToe.Api\TicTacToe.Api.csproj", "{EFDB6283-47F5-45DD-89D2-CBD437CA1436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Core", "TicTacToe.Core\TicTacToe.Core.csproj", "{F66A2722-AF64-42FB-9D85-FC0B8AD12E1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Infrastructure", "TicTacToe.Infrastructure\TicTacToe.Infrastructure.csproj", "{0F3B2FA5-F083-4C41-9A3F-FEA32E3B616B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Tests", "TicTacToe.Tests\TicTacToe.Tests.csproj", "{833CE17D-D8BC-454A-91AA-ED11629B57EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{26FDFBF0-05D9-440E-BFE7-6F23D2F26445}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Tests.Unit", "TicTacToe.Tests.Unit\TicTacToe.Tests.Unit.csproj", "{8D222CB9-7B2F-4EAD-88AA-087E320DDA80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A5C866A8-2417-4EE7-9507-B2E76F003A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D1BBE9F0-7C72-4608-B1CD-131F4E57240B}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Tests.Integration", "TicTacToe.Tests.Integration\TicTacToe.Tests.Integration.csproj", "{D35788EA-EF3F-45BB-9CD6-40E6AB9E982A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDB6283-47F5-45DD-89D2-CBD437CA1436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDB6283-47F5-45DD-89D2-CBD437CA1436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDB6283-47F5-45DD-89D2-CBD437CA1436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDB6283-47F5-45DD-89D2-CBD437CA1436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66A2722-AF64-42FB-9D85-FC0B8AD12E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66A2722-AF64-42FB-9D85-FC0B8AD12E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66A2722-AF64-42FB-9D85-FC0B8AD12E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66A2722-AF64-42FB-9D85-FC0B8AD12E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3B2FA5-F083-4C41-9A3F-FEA32E3B616B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3B2FA5-F083-4C41-9A3F-FEA32E3B616B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3B2FA5-F083-4C41-9A3F-FEA32E3B616B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3B2FA5-F083-4C41-9A3F-FEA32E3B616B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833CE17D-D8BC-454A-91AA-ED11629B57EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833CE17D-D8BC-454A-91AA-ED11629B57EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833CE17D-D8BC-454A-91AA-ED11629B57EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833CE17D-D8BC-454A-91AA-ED11629B57EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D222CB9-7B2F-4EAD-88AA-087E320DDA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D222CB9-7B2F-4EAD-88AA-087E320DDA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D222CB9-7B2F-4EAD-88AA-087E320DDA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D222CB9-7B2F-4EAD-88AA-087E320DDA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35788EA-EF3F-45BB-9CD6-40E6AB9E982A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35788EA-EF3F-45BB-9CD6-40E6AB9E982A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35788EA-EF3F-45BB-9CD6-40E6AB9E982A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35788EA-EF3F-45BB-9CD6-40E6AB9E982A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1BBE9F0-7C72-4608-B1CD-131F4E57240B} = {A5C866A8-2417-4EE7-9507-B2E76F003A1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BFFB2BA-DD10-44B3-AF84-642337C4D10E}
+	EndGlobalSection
+EndGlobal
